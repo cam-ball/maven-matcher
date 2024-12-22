@@ -1,6 +1,6 @@
 {
   "name": "maven-matcher",
-  "homepage": "https://camball.me/maven-matcher",
+  "homepage": "https://cam-ball.github.io/maven-matcher",
   "private": true,
   "version": "0.1.0",
   "type": "module",
