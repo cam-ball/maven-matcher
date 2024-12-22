@@ -22,15 +22,20 @@ function App() {
     setCurrentQuestion(currentQuestion + 1);
   };
 
+  const resetQuiz = () => {
+    setResults(initialResults);
+    setCurrentQuestion(0);
+  };
+
   return (
     <div className="p-6 w-full md:max-w-2xl">
-      {currentQuestion < questions.length ? (
+      {currentQuestion < 1 ? (
         <Question
           question={questions[currentQuestion]}
           handleAnswer={handleAnswer}
         />
       ) : (
-        <Result results={results} />
+        <Result results={results} resetQuiz={resetQuiz} />
       )}
     </div>
   );

@@ -2,9 +2,10 @@ import { mavens } from "./constants";
 
 type ResultType = {
   results: Record<string, number>;
+  resetQuiz: () => void;
 };
 
-const Result = ({ results }: ResultType) => {
+const Result = ({ results, resetQuiz }: ResultType) => {
   const tallyResult = (results: Record<string, number>) => {
     return Object.keys(results).reduce(function (a, b) {
       return results[a] > results[b] ? a : b;
@@ -22,11 +23,15 @@ const Result = ({ results }: ResultType) => {
       <p>{winner.text}</p>
       {winner.slug && (
         <a href={`https://jhicksmystery.com/mystery-mavens/${winner.slug}/`}>
-          <h3 className="underline mt-6 font-header text-xl">
-            Learn more here!
-          </h3>
+          <h3 className="underline mt-6 font-header text-xl">Read more!</h3>
         </a>
       )}
+      <button
+        onClick={resetQuiz}
+        className="mt-3 rounded bg-wine text-cream text-xl p-3 font-header"
+      >
+        Take it again
+      </button>
     </div>
   );
 };
