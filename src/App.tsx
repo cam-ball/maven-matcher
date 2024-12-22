@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="p-6 w-full md:max-w-2xl">
-      {currentQuestion < 1 ? (
+      {currentQuestion < questions.length ? (
         <Question
           question={questions[currentQuestion]}
           handleAnswer={handleAnswer}
