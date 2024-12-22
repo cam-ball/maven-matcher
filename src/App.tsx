@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { questions, mavens } from "./constants";
 import Question from "./Question";
+import Result from "./Result";
 
 const initialResults = () => {
   const results: Record<string, number> = {};
 
-  for (const maven of mavens) {
+  for (const maven of Object.keys(mavens)) {
     results[maven] = 0;
   }
 
@@ -29,16 +30,7 @@ function App() {
           handleAnswer={handleAnswer}
         />
       ) : (
-        <>
-          <h2>hooray you did it</h2>
-          <ul>
-            {mavens.map((maven) => (
-              <li key={maven}>
-                {maven}: {results[maven]}
-              </li>
-            ))}
-          </ul>
-        </>
+        <Result results={results} />
       )}
     </div>
   );
