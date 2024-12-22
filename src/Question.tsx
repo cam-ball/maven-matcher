@@ -20,8 +20,8 @@ const Question = ({ question, handleAnswer }: QuestionContainerType) => {
   const { text, choices } = question;
 
   return (
-    <>
-      <h2>{text}</h2>
+    <div className="p-6 w-full">
+      <h2 className="font-header text-2xl">{text}</h2>
       <ul>
         {choices.map((choice) => (
           <Answer
@@ -31,7 +31,7 @@ const Question = ({ question, handleAnswer }: QuestionContainerType) => {
           />
         ))}
       </ul>
-    </>
+    </div>
   );
 };
 
