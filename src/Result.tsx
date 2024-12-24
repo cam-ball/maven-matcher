@@ -18,7 +18,7 @@ const Result = ({ results, resetQuiz }: ResultType) => {
     <div className="p-6 w-full">
       <div className="flex items-center justify-between mb-6">
         <h2 className="font-header text-3xl">{winner.name}</h2>
-        <img src={`/assets/${winner.key}.png`} />
+        <img src={`/assets/results/${winner.key}.png`} />
       </div>
       <p>{winner.text}</p>
       {winner.slug && (

@@ -28,9 +28,10 @@ function App() {
   };
 
   return (
-    <div className="p-6 w-full md:max-w-2xl">
+    <div className="p-6 w-full max-w-[1600px] flex">
       {currentQuestion < questions.length ? (
         <Question
+          questionIndex={currentQuestion}
           question={questions[currentQuestion]}
           handleAnswer={handleAnswer}
         />
