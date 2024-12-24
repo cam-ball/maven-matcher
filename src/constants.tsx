@@ -3,7 +3,7 @@ export const mavens = {
     name: "Aggie Burns",
     key: "aggie",
     slug: "aggie",
-    text: "Are your puzzzle senses zinging? Just like Aggie, you're straight forward and insgithful. Maybe just a little awkward, but you make it work for you.",
+    text: "Are your puzzle senses zinging? Just like Aggie, you're straight forward and insgithful. Maybe just a little awkward, but you make it work for you.",
   },
   shannon: {
     name: "Shannon Lake",
@@ -27,7 +27,7 @@ export const mavens = {
     name: "Eleanor Marsdale",
     key: "eleanor",
     slug: "eleanor-marsdale",
-    text: "Are your puzzzle senses zinging? Just like Aggie, you're straight forward and insgithful. Maybe just a little awkward, but you make it work for you.",
+    text: "Are your puzzle senses zinging? Just like Aggie, you're straight forward and insgithful. Maybe just a little awkward, but you make it work for you.",
   },
   jordan: {
     name: "Jordan",

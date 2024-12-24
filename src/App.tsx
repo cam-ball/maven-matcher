@@ -36,7 +36,9 @@ function App() {
           handleAnswer={handleAnswer}
         />
       ) : (
-        <Result results={results} resetQuiz={resetQuiz} />
+        <div className="flex justify-center w-full">
+          <Result results={results} resetQuiz={resetQuiz} />
+        </div>
       )}
     </div>
   );
