@@ -40,7 +40,7 @@ const Question = ({
       </div>
       <img
         className="w-full md:w-1/3 shrink max-w-80 max-h-80"
-        src={`/assets/questions/${questionIndex}.png`}
+        src={`assets/questions/${questionIndex}.png`}
       />
     </div>
   );
