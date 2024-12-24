@@ -23,7 +23,7 @@ const Result = ({ results, resetQuiz }: ResultType) => {
         ⟲ Reset
       </button>
       <div className="flex items-center justify-between mb-6">
-        <h2 className="font-header text-3xl">{winner.name}</h2>
+        <h2 className="font-header text-3xl">{`${winner.first} ${winner.last}`}</h2>
         <img src={`assets/results/${winner.key}.png`} />
       </div>
       <p>{winner.text}</p>
@@ -31,7 +31,7 @@ const Result = ({ results, resetQuiz }: ResultType) => {
         {winner.slug && (
           <a href={`https://jhicksmystery.com/mystery-mavens/${winner.slug}/`}>
             <h3 className="underline mt-6 font-header text-xl">
-              Learn More about Aggie ➚
+              Learn More about {winner.first} ➚
             </h3>
           </a>
         )}
