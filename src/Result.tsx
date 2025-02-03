@@ -24,7 +24,7 @@ const Result = ({ results, resetQuiz }: ResultType) => {
       </button>
       <div className="flex items-center justify-between mb-6">
         <h2 className="font-header text-3xl">{`${winner.first} ${winner.last}`}</h2>
-        <img src={`assets/results/${winner.key}.png`} />
+        <img className="max-h-96" src={`assets/results/${winner.key}.png`} />
       </div>
       <p>{winner.text}</p>
       <div className="flex justify-end">

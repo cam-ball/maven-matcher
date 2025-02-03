@@ -4,7 +4,7 @@ export const mavens = {
     last: "Burns",
     key: "aggie",
     slug: "aggie",
-    text: "Are your puzzle senses zinging? Just like Aggie, you're straight forward and insgithful. Maybe just a little awkward, but you make it work for you.",
+    text: "Are your puzzle senses zinging? Just like Aggie, you're straight forward and insightful. Maybe just a little awkward, but you make it work for you.",
   },
   shannon: {
     first: "Shannon",
@@ -32,7 +32,7 @@ export const mavens = {
     last: "Marsdale",
     key: "eleanor",
     slug: "eleanor-marsdale",
-    text: "Are your puzzle senses zinging? Just like Aggie, you're straight forward and insgithful. Maybe just a little awkward, but you make it work for you.",
+    text: "Eleanor is the queen bee of the Mavens and never belabors a point. She spent her younger years as a submissive wife, but those days are long over. She’ll tell you exactly what she’s thinking. Like it or not.",
   },
   jordan: {
     first: "Jordan",
@@ -77,7 +77,7 @@ export const questions = [
     text: "Out on the town for the night? What are you wearing?",
     choices: [
       { text: "Sensible shoes", maven: "aggie" },
-      { text: "Haute coutour", maven: "shannon" },
+      { text: "Haute couture", maven: "shannon" },
       { text: "Something loud & showy", maven: "maude" },
       { text: "Diamond earrings", maven: "tess" },
       { text: "Low-cut dress & a travel bag", maven: "desiree" },
