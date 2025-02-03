@@ -29,7 +29,10 @@ const Result = ({ results, resetQuiz }: ResultType) => {
       <p>{winner.text}</p>
       <div className="flex justify-end">
         {winner.slug && (
-          <a href={`https://jhicksmystery.com/mystery-mavens/${winner.slug}/`}>
+          <a
+            target="_parent"
+            href={`https://jhicksmystery.com/mystery-mavens/${winner.slug}/`}
+          >
             <h3 className="underline mt-6 font-header text-xl">
               Learn More about {winner.first} ➚
             </h3>
