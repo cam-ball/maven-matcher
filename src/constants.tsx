@@ -32,7 +32,7 @@ export const mavens = {
     last: "Marsdale",
     key: "eleanor",
     slug: "eleanor-marsdale",
-    text: "Eleanor is the queen bee of the Mavens and never belabors a point. She spent her younger years as a submissive wife, but those days are long over. She’ll tell you exactly what she’s thinking. Like it or not.",
+    text: "Ready to get to work? Just like Eleanor, you're no-nonsense. You like efficiency, planning, and marking things off your list. Let's get cracking!",
   },
   jordan: {
     first: "Jordan",
