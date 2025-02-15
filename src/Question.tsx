@@ -26,7 +26,7 @@ const Question = ({
 
   return (
     <div className="flex flex-wrap w-full items-center justify-center">
-      <h2 className="w-full text-center font-header text-2xl">{text}</h2>
+      <h2 className="w-full text-center font-header text-4xl">{text}</h2>
       <div className="w-full md:w-1/2 min-w-[350px] mb-6 p-6 lg:mr-6">
         <ul>
           {choices.map((choice) => (

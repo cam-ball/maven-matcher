@@ -12,7 +12,7 @@ const Answer = ({ answer, handleAnswer }: AnswerContainerType) => {
   const { text, maven } = answer;
 
   const border = "border-2 border-wine";
-  const basic = "mt-3 p-3 cursor-pointer w-full text-lg";
+  const basic = "mt-3 p-3 cursor-pointer w-full text-2xl";
   const hover = "hover:font-semibold hover:scale-105";
   const animation = "ease-in-out transition duration-300";
 
