@@ -170,7 +170,7 @@ export const questions = [
       { text: "Athena", maven: "aggie" },
       { text: "Gloria Steinem", maven: "eleanor" },
       { text: "Florence Nightengale", maven: "jordan" },
-      { text: "Nikola Tesla", maven: "lulu" },
+      { text: "Marie Curie", maven: "lulu" },
       { text: "Sophia Loren", maven: "desiree" },
     ],
   },
